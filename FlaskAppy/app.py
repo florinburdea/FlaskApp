@@ -1,9 +1,12 @@
-import os, random, sys
 from flask import Flask, render_template, logging, flash, url_for, redirect, session, request
 from flask_mysqldb import MySQL
 from wtforms import Form,StringField, PasswordField, TextAreaField, validators, BooleanField
 from passlib.hash import sha256_crypt
 from functools import wraps
+from FlaskAppy.formClass import RegisterForm
+
+
+
 
 app = Flask(__name__)
 
@@ -55,21 +58,11 @@ def article(id):
     cur = mysql.connection.cursor()
 
     #Get article
-    result = cur.execute("SELECT*FROM articles WHERE id = %s",[id])
+    cur.execute("SELECT*FROM articles WHERE id = %s",[id])
 
     article = cur.fetchone()
     return render_template('article.html', article=article)
 
-# User register form
-class RegisterForm(Form):
-    name = StringField('Name', [validators.Length(min=5, max=50)])
-    username = StringField('Username', [validators.Length(min=4, max=25)])
-    email = StringField('Email', [validators.Length(min=6, max=50)])
-    password = PasswordField('Password',[
-        validators.DataRequired(),
-        validators.EqualTo('confirm', message='Passwords do not match')
-    ])
-    confirm = PasswordField('Confirm Password')
 
 # User register
 @app.route('/register', methods=['GET', 'POST'])
@@ -210,6 +203,29 @@ def add_article():
         flash('Article Created', 'success')
         return redirect(url_for('dashboard'))
     return render_template('/add_article.html', form=form)
+
+
+# Edit Article
+@app.route('/edit_article/<string:id>/', methods=['GET','POST'])
+@is_logged_in
+def edit_article(id):
+    form = ArticleForm(request.form)
+    #Create cursor
+    cur = mysql.connection.cursor()
+
+    #Execute
+    cur.execute("SELECT*FROM articles WHERE id = id")
+
+    #Commit
+    #mysql.connection.commit()
+
+    #Close connenction
+    cur.close()
+
+    flash('Article changed successfuly', 'success')
+    return render_template('/edit_article.html', form=form)
+
+
 
 if __name__ == '__main__':
     app.secret_key='hera1234!'

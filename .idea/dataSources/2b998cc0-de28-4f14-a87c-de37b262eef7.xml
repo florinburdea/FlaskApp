@@ -45,29 +45,28 @@
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="17" parent="9" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="18" parent="9" name="title">
+    <column id="17" parent="9" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="19" parent="9" name="author">
+    <column id="18" parent="9" name="author">
       <Position>3</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="20" parent="9" name="body">
+    <column id="19" parent="9" name="body">
       <Position>4</Position>
       <DataType>text|0</DataType>
     </column>
-    <column id="21" parent="9" name="create_date">
+    <column id="20" parent="9" name="create_date">
       <Position>5</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="21" parent="9" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
     <key id="22" parent="9" name="PRIMARY">
       <ColNames>id</ColNames>
