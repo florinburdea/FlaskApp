@@ -210,7 +210,7 @@ def edit_article(id):
         cur = mysql.connection.cursor()
 
         #Execute
-        result_title = cur.execute("SELECT title FROM articles WHERE id = id")
+        result_title = cur.execute("SELECT title FROM articles WHERE id = %s",[id])
         if result_title > 0:
             # Get stored hash
             data = cur.fetchone()
@@ -218,7 +218,7 @@ def edit_article(id):
         else:
             title = "Title not received"
 
-        result_body = cur.execute("SELECT body FROM articles WHERE id = id")
+        result_body = cur.execute("SELECT body FROM articles WHERE id = %s",[id])
         if result_body > 0:
             # Get stored hash
             data = cur.fetchone()
@@ -235,7 +235,7 @@ def edit_article(id):
         # Create cursor
         cur = mysql.connection.cursor()
         # Execute
-        cur.execute("UPDATE articles SET title = title, body = body WHERE id =id")
+        cur.execute("UPDATE articles SET title = %s, body = %s WHERE id = %s",[title,body,id])
         # Commit
         mysql.connection.commit()
         # Close connenction
