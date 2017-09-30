@@ -1,7 +1,16 @@
-import os, random, sys
+
 from wtforms import Form,StringField, PasswordField, TextAreaField, validators, BooleanField
 
 
+#--------------------------------------------------------------------------
+
+
+#--------------------------------------------------------------------------
+
+# Article form class
+class ArticleForm(Form):
+    title = StringField('Title', [validators.Length(min=5, max=200)])
+    body = TextAreaField('Body', [validators.Length(min=30)])
 
 
 # User register form
@@ -17,3 +26,10 @@ class RegisterForm(Form):
         validators.EqualTo('confirm', message='Passwords do not match')
     ])
     confirm = PasswordField('Confirm Password')
+
+class EditForm(Form):
+    '''
+    Edit Article form that will be used to get data from the DB
+    '''
+    title = StringField('Title', [validators.Length(min=5, max=50)])
+    body = StringField('Body', [validators.Length(min=30)])

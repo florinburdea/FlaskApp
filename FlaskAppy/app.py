@@ -1,11 +1,10 @@
 from flask import Flask, render_template, logging, flash, url_for, redirect, session, request
 from flask_mysqldb import MySQL
-from wtforms import Form,StringField, PasswordField, TextAreaField, validators, BooleanField
 from passlib.hash import sha256_crypt
 from functools import wraps
 from FlaskAppy.formClass import RegisterForm
-
-
+from FlaskAppy.formClass import ArticleForm
+from FlaskAppy.formClass import EditForm
 
 
 app = Flask(__name__)
@@ -142,7 +141,7 @@ def is_logged_in(f):
             return redirect(url_for('login'))
     return wrap
 
-# Logout routeing
+# Logout routing
 @app.route('/logout')
 @is_logged_in
 def logout():
@@ -174,10 +173,6 @@ def dashboard():
 
 
 
-# Article form class
-class ArticleForm(Form):
-    title = StringField('Title', [validators.Length(min=5, max=200)])
-    body = TextAreaField('Body', [validators.Length(min=30)])
 
 # Add Article
 @app.route('/add_article', methods=['GET','POST'])
@@ -209,18 +204,52 @@ def add_article():
 @app.route('/edit_article/<string:id>/', methods=['GET','POST'])
 @is_logged_in
 def edit_article(id):
-    form = ArticleForm(request.form)
-    #Create cursor
-    cur = mysql.connection.cursor()
+    form = EditForm(request.form)
+    if request.method == 'GET':
+        #Create cursor
+        cur = mysql.connection.cursor()
 
-    #Execute
-    cur.execute("SELECT*FROM articles WHERE id = id")
+        #Execute
+        result_title = cur.execute("SELECT title FROM articles WHERE id = id")
+        if result_title > 0:
+            # Get stored hash
+            data = cur.fetchone()
+            title = data['title']
+        else:
+            title = "Title not received"
 
-    #Commit
-    #mysql.connection.commit()
+        result_body = cur.execute("SELECT body FROM articles WHERE id = id")
+        if result_body > 0:
+            # Get stored hash
+            data = cur.fetchone()
+            body = data['body']
+        else:
+            body = "Body not received"
+        # Close connenction
+        cur.close()
+        return render_template('edit_article.html', title=title, body=body)
+    elif request.method == 'POST' and form.validate():
+        title = form.title.data
+        body = form.body.data
 
-    #Close connenction
-    cur.close()
+        # Create cursor
+        cur = mysql.connection.cursor()
+        # Execute
+        cur.execute("UPDATE articles SET title = title, body = body WHERE id =id")
+        # Commit
+        mysql.connection.commit()
+        # Close connenction
+        cur.close()
+
+        flash('Article Updated', 'success')
+        return redirect(url_for('dashboard'))
+    else:
+        flash('Something went wrong!', 'danger')
+    return redirect(url_for('dashboard'))
+
+
+
+
 
     flash('Article changed successfuly', 'success')
     return render_template('/edit_article.html', form=form)
