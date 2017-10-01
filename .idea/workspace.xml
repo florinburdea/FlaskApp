@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84dfa79-acbb-4dd2-b09d-7fc62d32b77c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/2b998cc0-de28-4f14-a87c-de37b262eef7.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/2b998cc0-de28-4f14-a87c-de37b262eef7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlaskAppy/__init__.py" afterPath="$PROJECT_DIR$/FlaskAppy/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlaskAppy/app.py" afterPath="$PROJECT_DIR$/FlaskAppy/app.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,22 +70,22 @@
         <entry file="file://$PROJECT_DIR$/FlaskAppy/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
-              <caret line="247" column="48" lean-forward="true" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+              <caret line="248" column="48" lean-forward="false" selection-start-line="248" selection-start-column="48" selection-end-line="248" selection-end-column="48" />
               <folding>
-                <element signature="e#0#93#0" expanded="true" />
-                <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
-                <marker date="1506816217482" expanded="true" signature="2665:2704" ph="SELECT * FRO... users" />
-                <marker date="1506816217482" expanded="true" signature="4839:4898" ph="INSERT INTO articles... " />
-                <marker date="1506816217482" expanded="true" signature="5487:5525" ph="SELECT title... articles" />
-                <marker date="1506816217482" expanded="true" signature="5487:5527" ph="SELECT title... articles" />
-                <marker date="1506816217482" expanded="true" signature="5753:5788" ph="SELECT body articles" />
-                <marker date="1506816217482" expanded="true" signature="5753:5792" ph="SELECT body articles" />
-                <marker date="1506816217482" expanded="true" signature="6322:6358" ph="UPDATE artic... " />
-                <marker date="1506816217482" expanded="true" signature="6322:6360" ph="UPDATE artic... " />
-                <marker date="1506816217482" expanded="true" signature="6322:6375" ph="UPDATE artic... " />
-                <marker date="1506816217482" expanded="true" signature="6322:6377" ph="UPDATE artic... " />
-                <marker date="1506816217482" expanded="true" signature="6322:6395" ph="UPDATE artic... " />
-                <marker date="1506816217482" expanded="true" signature="6328:6358" ph="INSERT INTO articles... " />
+                <element signature="e#0#27#0" expanded="true" />
+                <marker date="1506816348991" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+                <marker date="1506816348991" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+                <marker date="1506816348991" expanded="true" signature="4831:4890" ph="INSERT INTO articles... " />
+                <marker date="1506816348991" expanded="true" signature="5479:5517" ph="SELECT title... articles" />
+                <marker date="1506816348991" expanded="true" signature="5479:5519" ph="SELECT title... articles" />
+                <marker date="1506816348991" expanded="true" signature="5745:5780" ph="SELECT body articles" />
+                <marker date="1506816348991" expanded="true" signature="5745:5784" ph="SELECT body articles" />
+                <marker date="1506816348991" expanded="true" signature="6314:6350" ph="UPDATE artic... " />
+                <marker date="1506816348991" expanded="true" signature="6314:6352" ph="UPDATE artic... " />
+                <marker date="1506816348991" expanded="true" signature="6314:6367" ph="UPDATE artic... " />
+                <marker date="1506816348991" expanded="true" signature="6314:6369" ph="UPDATE artic... " />
+                <marker date="1506816348991" expanded="true" signature="6314:6387" ph="UPDATE artic... " />
+                <marker date="1506816348991" expanded="true" signature="6320:6350" ph="INSERT INTO articles... " />
               </folding>
             </state>
           </provider>
@@ -181,6 +177,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Florin Burdea" />
         <option value="Florin Burdea &lt;florin.burdea@gmail.com&gt;" />
       </list>
     </option>
@@ -559,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506351576096</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit action out of PyCharm">
+      <created>1506816360699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506816360699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -638,20 +642,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#93#0" expanded="true" />
-            <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
-            <marker date="1506816217482" expanded="true" signature="2665:2704" ph="SELECT * FRO... users" />
-            <marker date="1506816217482" expanded="true" signature="4839:4898" ph="INSERT INTO articles... " />
-            <marker date="1506816217482" expanded="true" signature="5487:5525" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5487:5527" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5788" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5792" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="6322:6358" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6360" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6375" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6377" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6395" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6328:6358" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506816348991" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506816348991" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506816348991" expanded="true" signature="4831:4890" ph="INSERT INTO articles... " />
+            <marker date="1506816348991" expanded="true" signature="5479:5517" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5479:5519" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5780" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5784" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="6314:6350" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6352" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6367" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6369" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6387" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6320:6350" ph="INSERT INTO articles... " />
           </folding>
         </state>
       </provider>
@@ -703,20 +707,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#93#0" expanded="true" />
-            <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
-            <marker date="1506816217482" expanded="true" signature="2665:2704" ph="SELECT * FRO... users" />
-            <marker date="1506816217482" expanded="true" signature="4839:4898" ph="INSERT INTO articles... " />
-            <marker date="1506816217482" expanded="true" signature="5487:5525" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5487:5527" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5788" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5792" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="6322:6358" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6360" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6375" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6377" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6395" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6328:6358" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506816348991" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506816348991" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506816348991" expanded="true" signature="4831:4890" ph="INSERT INTO articles... " />
+            <marker date="1506816348991" expanded="true" signature="5479:5517" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5479:5519" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5780" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5784" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="6314:6350" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6352" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6367" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6369" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6387" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6320:6350" ph="INSERT INTO articles... " />
           </folding>
         </state>
       </provider>
@@ -768,20 +772,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#93#0" expanded="true" />
-            <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
-            <marker date="1506816217482" expanded="true" signature="2665:2704" ph="SELECT * FRO... users" />
-            <marker date="1506816217482" expanded="true" signature="4839:4898" ph="INSERT INTO articles... " />
-            <marker date="1506816217482" expanded="true" signature="5487:5525" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5487:5527" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5788" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5792" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="6322:6358" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6360" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6375" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6377" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6395" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6328:6358" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506816348991" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506816348991" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506816348991" expanded="true" signature="4831:4890" ph="INSERT INTO articles... " />
+            <marker date="1506816348991" expanded="true" signature="5479:5517" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5479:5519" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5780" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5784" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="6314:6350" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6352" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6367" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6369" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6387" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6320:6350" ph="INSERT INTO articles... " />
           </folding>
         </state>
       </provider>
@@ -833,20 +837,20 @@
         <state relative-caret-position="1140">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="e#0#93#0" expanded="true" />
-            <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
-            <marker date="1506816217482" expanded="true" signature="2665:2704" ph="SELECT * FRO... users" />
-            <marker date="1506816217482" expanded="true" signature="4839:4898" ph="INSERT INTO articles... " />
-            <marker date="1506816217482" expanded="true" signature="5487:5525" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5487:5527" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5788" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5792" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="6322:6358" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6360" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6375" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6377" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6395" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6328:6358" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506816348991" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506816348991" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506816348991" expanded="true" signature="4831:4890" ph="INSERT INTO articles... " />
+            <marker date="1506816348991" expanded="true" signature="5479:5517" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5479:5519" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5780" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5784" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="6314:6350" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6352" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6367" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6369" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6387" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6320:6350" ph="INSERT INTO articles... " />
           </folding>
         </state>
       </provider>
@@ -870,20 +874,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#93#0" expanded="true" />
-            <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
-            <marker date="1506816217482" expanded="true" signature="2665:2704" ph="SELECT * FRO... users" />
-            <marker date="1506816217482" expanded="true" signature="4839:4898" ph="INSERT INTO articles... " />
-            <marker date="1506816217482" expanded="true" signature="5487:5525" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5487:5527" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5788" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5792" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="6322:6358" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6360" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6375" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6377" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6395" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6328:6358" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506816348991" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506816348991" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506816348991" expanded="true" signature="4831:4890" ph="INSERT INTO articles... " />
+            <marker date="1506816348991" expanded="true" signature="5479:5517" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5479:5519" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5780" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5784" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="6314:6350" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6352" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6367" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6369" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6387" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6320:6350" ph="INSERT INTO articles... " />
           </folding>
         </state>
       </provider>
@@ -1076,22 +1080,22 @@
     <entry file="file://$PROJECT_DIR$/FlaskAppy/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="247" column="48" lean-forward="true" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+          <caret line="248" column="48" lean-forward="false" selection-start-line="248" selection-start-column="48" selection-end-line="248" selection-end-column="48" />
           <folding>
-            <element signature="e#0#93#0" expanded="true" />
-            <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
-            <marker date="1506816217482" expanded="true" signature="2665:2704" ph="SELECT * FRO... users" />
-            <marker date="1506816217482" expanded="true" signature="4839:4898" ph="INSERT INTO articles... " />
-            <marker date="1506816217482" expanded="true" signature="5487:5525" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5487:5527" ph="SELECT title... articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5788" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="5753:5792" ph="SELECT body articles" />
-            <marker date="1506816217482" expanded="true" signature="6322:6358" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6360" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6375" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6377" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6322:6395" ph="UPDATE artic... " />
-            <marker date="1506816217482" expanded="true" signature="6328:6358" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506816348991" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506816348991" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506816348991" expanded="true" signature="4831:4890" ph="INSERT INTO articles... " />
+            <marker date="1506816348991" expanded="true" signature="5479:5517" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5479:5519" ph="SELECT title... articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5780" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="5745:5784" ph="SELECT body articles" />
+            <marker date="1506816348991" expanded="true" signature="6314:6350" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6352" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6367" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6369" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6314:6387" ph="UPDATE artic... " />
+            <marker date="1506816348991" expanded="true" signature="6320:6350" ph="INSERT INTO articles... " />
           </folding>
         </state>
       </provider>
