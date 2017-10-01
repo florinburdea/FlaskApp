@@ -169,7 +169,7 @@ def dashboard():
         msg = 'No Articles Foound'
         return render_template('dashboard.html', msg=msg)
 
-    # Close connenction
+    # Close connection
     cur.close()
 
 
@@ -193,7 +193,7 @@ def add_article():
         #Commit
         mysql.connection.commit()
 
-        #Close connenction
+        #Close connection
         cur.close()
 
         flash('Article Created', 'success')
@@ -211,24 +211,18 @@ def edit_article(id):
         cur = mysql.connection.cursor()
 
         #Execute
-        result_title = cur.execute("SELECT title FROM articles WHERE id = %s",[id])
+        result_title = cur.execute("SELECT title, body FROM articles WHERE id = %s",[id])
         if result_title > 0:
             # Get stored hash
             data = cur.fetchone()
             title = data['title']
-        else:
-            title = "Title not received"
-
-        result_body = cur.execute("SELECT body FROM articles WHERE id = %s",[id])
-        if result_body > 0:
-            # Get stored hash
-            data = cur.fetchone()
             body = data['body']
         else:
-            body = "Body not received"
-        # Close connenction
+            title = "Title or body not found."
         cur.close()
+
         return render_template('edit_article.html', title=title, body=body)
+
     elif request.method == 'POST' and form.validate():
         title = form.title.data
         body = form.body.data
@@ -239,7 +233,7 @@ def edit_article(id):
         cur.execute("UPDATE articles SET title = %s, body = %s WHERE id = %s",[title,body,id])
         # Commit
         mysql.connection.commit()
-        # Close connenction
+        # Close connection
         cur.close()
 
         flash('Article changed successfully', 'success')
