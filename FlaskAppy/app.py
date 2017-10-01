@@ -1,11 +1,12 @@
-from flask import Flask, render_template, logging, flash, url_for, redirect, session, request
+from functools import wraps
+
+from flask import Flask, render_template, flash, url_for, redirect, session, request
 from flask_mysqldb import MySQL
 from passlib.hash import sha256_crypt
-from functools import wraps
-from FlaskAppy.formClass import RegisterForm
+
 from FlaskAppy.formClass import ArticleForm
 from FlaskAppy.formClass import EditForm
-
+from FlaskAppy.formClass import RegisterForm
 
 app = Flask(__name__)
 

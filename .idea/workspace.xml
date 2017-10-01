@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84dfa79-acbb-4dd2-b09d-7fc62d32b77c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/2b998cc0-de28-4f14-a87c-de37b262eef7.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/2b998cc0-de28-4f14-a87c-de37b262eef7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlaskAppy/__init__.py" afterPath="$PROJECT_DIR$/FlaskAppy/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlaskAppy/app.py" afterPath="$PROJECT_DIR$/FlaskAppy/app.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +73,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlaskAppy/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="244" column="45" lean-forward="false" selection-start-line="244" selection-start-column="45" selection-end-line="244" selection-end-column="45" />
+            <state relative-caret-position="585">
+              <caret line="247" column="48" lean-forward="true" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
               <folding>
                 <element signature="e#0#93#0" expanded="true" />
                 <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
@@ -576,9 +580,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982522" sideWeight="0.28055555" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22083333" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.49722221" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.49722221" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38303342" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" x="53" y="314" width="1313" height="220" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38303342" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" x="53" y="314" width="1313" height="220" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1071,8 +1075,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlaskAppy/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="244" column="45" lean-forward="false" selection-start-line="244" selection-start-column="45" selection-end-line="244" selection-end-column="45" />
+        <state relative-caret-position="585">
+          <caret line="247" column="48" lean-forward="true" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
           <folding>
             <element signature="e#0#93#0" expanded="true" />
             <marker date="1506816217482" expanded="true" signature="1925:1999" ph="INSERT INTO users... " />
