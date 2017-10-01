@@ -207,18 +207,22 @@ def add_article():
 def edit_article(id):
     form = EditForm(request.form)
     if request.method == 'GET':
+
         #Create cursor
         cur = mysql.connection.cursor()
 
         #Execute
         result_title = cur.execute("SELECT title, body FROM articles WHERE id = %s",[id])
         if result_title > 0:
+
             # Get stored hash
             data = cur.fetchone()
             title = data['title']
             body = data['body']
         else:
-            title = "Title or body not found."
+            title, body = "Title or body not found."
+
+        # Close connection
         cur.close()
 
         return render_template('edit_article.html', title=title, body=body)

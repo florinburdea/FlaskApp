@@ -1,5 +1,6 @@
-
-from wtforms import Form,StringField, PasswordField, TextAreaField, validators, BooleanField
+# --------------------------------------------------------------------------
+# Imports
+from wtforms import Form, StringField, PasswordField, TextAreaField, validators
 
 
 #--------------------------------------------------------------------------
