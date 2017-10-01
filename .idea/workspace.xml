@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84dfa79-acbb-4dd2-b09d-7fc62d32b77c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlaskAppy/templates/del_article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/2b998cc0-de28-4f14-a87c-de37b262eef7.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/2b998cc0-de28-4f14-a87c-de37b262eef7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlaskAppy/app.py" afterPath="$PROJECT_DIR$/FlaskAppy/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlaskAppy/templates/dashboard.html" afterPath="$PROJECT_DIR$/FlaskAppy/templates/dashboard.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FlaskApp$app.coverage" NAME="app Coverage Results" MODIFIED="1506841735276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlaskAppy" />
+    <SUITE FILE_PATH="coverage/FlaskApp$app.coverage" NAME="app Coverage Results" MODIFIED="1506845299817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlaskAppy" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -69,21 +73,34 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlaskAppy/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+            <state relative-caret-position="328">
+              <caret line="254" column="13" lean-forward="true" selection-start-line="254" selection-start-column="13" selection-end-line="254" selection-end-column="13" />
               <folding>
-                <marker date="1506842483318" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
-                <marker date="1506842483318" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
-                <marker date="1506842483318" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
-                <marker date="1506842483318" expanded="true" signature="5478:5522" ph="SELECT title... articles" />
-                <marker date="1506842483318" expanded="true" signature="5478:5524" ph="SELECT title... articles" />
-                <marker date="1506842483318" expanded="true" signature="6106:6142" ph="UPDATE artic... " />
-                <marker date="1506842483318" expanded="true" signature="6106:6144" ph="UPDATE artic... " />
-                <marker date="1506842483318" expanded="true" signature="6106:6159" ph="UPDATE artic... " />
-                <marker date="1506842483318" expanded="true" signature="6106:6161" ph="UPDATE artic... " />
-                <marker date="1506842483318" expanded="true" signature="6106:6179" ph="UPDATE artic... " />
-                <marker date="1506842483318" expanded="true" signature="6112:6142" ph="INSERT INTO articles... " />
+                <element signature="e#0#27#0" expanded="true" />
+                <marker date="1506845278677" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+                <marker date="1506845278677" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+                <marker date="1506845278677" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
+                <marker date="1506845278677" expanded="true" signature="5513:5557" ph="SELECT title... articles" />
+                <marker date="1506845278677" expanded="true" signature="5513:5559" ph="SELECT title... articles" />
+                <marker date="1506845278677" expanded="true" signature="6141:6177" ph="UPDATE artic... " />
+                <marker date="1506845278677" expanded="true" signature="6141:6179" ph="UPDATE artic... " />
+                <marker date="1506845278677" expanded="true" signature="6141:6194" ph="UPDATE artic... " />
+                <marker date="1506845278677" expanded="true" signature="6141:6196" ph="UPDATE artic... " />
+                <marker date="1506845278677" expanded="true" signature="6141:6214" ph="UPDATE artic... " />
+                <marker date="1506845278677" expanded="true" signature="6147:6177" ph="INSERT INTO articles... " />
+                <marker date="1506845278677" expanded="true" signature="6752:6786" ph="DELETE FROM " />
+                <marker date="1506845278677" expanded="true" signature="6758:6786" ph="SELECT title... articles" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="del_article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/del_article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,8 +108,8 @@
       <file leaf-file-name="formClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlaskAppy/formClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,31 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="edit_article.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/edit_article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="240">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -156,8 +153,8 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b998cc0-de28-4f14-a87c-de37b262eef7/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -202,16 +199,16 @@
         <option value="dbtable:/b186b867/2b998cc0-de28-4f14-a87c-de37b262eef7/myflaskapp.users" />
         <option value="$PROJECT_DIR$/FlaskAppy/templates/layout.html" />
         <option value="$PROJECT_DIR$/FlaskAppy/templates/add_article.html" />
-        <option value="$PROJECT_DIR$/FlaskAppy/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/FlaskAppy/templates/article.html" />
         <option value="$PROJECT_DIR$/FlaskAppy/templates/includes/_navbar.html" />
         <option value="$PROJECT_DIR$/FlaskAppy/templates/articles.html" />
-        <option value="$PROJECT_DIR$/FlaskAppy/templates/del_article.html" />
         <option value="dbtable:/b186b867/2b998cc0-de28-4f14-a87c-de37b262eef7/myflaskapp.articles" />
-        <option value="$PROJECT_DIR$/FlaskAppy/templates/edit_article.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2b998cc0-de28-4f14-a87c-de37b262eef7/console.sql" />
         <option value="$PROJECT_DIR$/FlaskAppy/formClass.py" />
         <option value="$PROJECT_DIR$/FlaskAppy/__init__.py" />
+        <option value="$PROJECT_DIR$/FlaskAppy/templates/del_article.html" />
+        <option value="$PROJECT_DIR$/FlaskAppy/templates/dashboard.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2b998cc0-de28-4f14-a87c-de37b262eef7/console.sql" />
+        <option value="$PROJECT_DIR$/FlaskAppy/templates/edit_article.html" />
         <option value="$PROJECT_DIR$/FlaskAppy/app.py" />
       </list>
     </option>
@@ -290,6 +287,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlaskApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlaskApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlaskAppy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -303,6 +322,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FlaskAppy/templates" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.app">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -615,18 +639,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="24" width="1440" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.4888889" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19010043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982522" sideWeight="0.28055555" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22083333" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38303342" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" x="53" y="314" width="1313" height="220" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.49722221" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.49722221" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.4888889" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19010043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22022955" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32390746" sideWeight="0.71944445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -635,7 +660,6 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="53" y="24" width="1313" height="744" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -664,7 +688,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -681,17 +705,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506842483318" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
-            <marker date="1506842483318" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
-            <marker date="1506842483318" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
-            <marker date="1506842483318" expanded="true" signature="5478:5522" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="5478:5524" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="6106:6142" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6144" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6159" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6161" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6179" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6112:6142" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506845278677" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506845278677" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506845278677" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="5513:5557" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="5513:5559" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="6141:6177" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6179" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6194" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6196" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6214" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6147:6177" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="6752:6786" ph="DELETE FROM " />
+            <marker date="1506845278677" expanded="true" signature="6758:6786" ph="SELECT title... articles" />
           </folding>
         </state>
       </provider>
@@ -743,17 +770,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506842483318" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
-            <marker date="1506842483318" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
-            <marker date="1506842483318" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
-            <marker date="1506842483318" expanded="true" signature="5478:5522" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="5478:5524" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="6106:6142" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6144" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6159" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6161" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6179" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6112:6142" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506845278677" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506845278677" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506845278677" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="5513:5557" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="5513:5559" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="6141:6177" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6179" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6194" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6196" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6214" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6147:6177" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="6752:6786" ph="DELETE FROM " />
+            <marker date="1506845278677" expanded="true" signature="6758:6786" ph="SELECT title... articles" />
           </folding>
         </state>
       </provider>
@@ -805,17 +835,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506842483318" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
-            <marker date="1506842483318" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
-            <marker date="1506842483318" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
-            <marker date="1506842483318" expanded="true" signature="5478:5522" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="5478:5524" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="6106:6142" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6144" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6159" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6161" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6179" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6112:6142" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506845278677" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506845278677" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506845278677" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="5513:5557" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="5513:5559" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="6141:6177" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6179" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6194" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6196" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6214" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6147:6177" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="6752:6786" ph="DELETE FROM " />
+            <marker date="1506845278677" expanded="true" signature="6758:6786" ph="SELECT title... articles" />
           </folding>
         </state>
       </provider>
@@ -867,17 +900,20 @@
         <state relative-caret-position="1140">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <marker date="1506842483318" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
-            <marker date="1506842483318" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
-            <marker date="1506842483318" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
-            <marker date="1506842483318" expanded="true" signature="5478:5522" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="5478:5524" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="6106:6142" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6144" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6159" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6161" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6179" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6112:6142" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506845278677" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506845278677" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506845278677" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="5513:5557" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="5513:5559" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="6141:6177" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6179" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6194" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6196" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6214" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6147:6177" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="6752:6786" ph="DELETE FROM " />
+            <marker date="1506845278677" expanded="true" signature="6758:6786" ph="SELECT title... articles" />
           </folding>
         </state>
       </provider>
@@ -901,17 +937,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506842483318" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
-            <marker date="1506842483318" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
-            <marker date="1506842483318" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
-            <marker date="1506842483318" expanded="true" signature="5478:5522" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="5478:5524" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="6106:6142" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6144" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6159" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6161" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6179" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6112:6142" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506845278677" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506845278677" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506845278677" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="5513:5557" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="5513:5559" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="6141:6177" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6179" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6194" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6196" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6214" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6147:6177" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="6752:6786" ph="DELETE FROM " />
+            <marker date="1506845278677" expanded="true" signature="6758:6786" ph="SELECT title... articles" />
           </folding>
         </state>
       </provider>
@@ -963,25 +1002,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/del_article.html" />
-    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/includes/_navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1020,22 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/werkzeug/serving.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1048,6 +1056,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="1996" column="0" lean-forward="false" selection-start-line="1996" selection-start-column="0" selection-end-line="1996" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/includes/_navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskAppy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskAppy/formClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b998cc0-de28-4f14-a87c-de37b262eef7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1067,52 +1131,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/edit_article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b998cc0-de28-4f14-a87c-de37b262eef7/console.sql">
+    <entry file="file://$PROJECT_DIR$/FlaskAppy/templates/del_article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskAppy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlaskAppy/formClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlaskAppy/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+        <state relative-caret-position="328">
+          <caret line="254" column="13" lean-forward="true" selection-start-line="254" selection-start-column="13" selection-end-line="254" selection-end-column="13" />
           <folding>
-            <marker date="1506842483318" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
-            <marker date="1506842483318" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
-            <marker date="1506842483318" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
-            <marker date="1506842483318" expanded="true" signature="5478:5522" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="5478:5524" ph="SELECT title... articles" />
-            <marker date="1506842483318" expanded="true" signature="6106:6142" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6144" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6159" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6161" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6106:6179" ph="UPDATE artic... " />
-            <marker date="1506842483318" expanded="true" signature="6112:6142" ph="INSERT INTO articles... " />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1506845278677" expanded="true" signature="1917:1991" ph="INSERT INTO users... " />
+            <marker date="1506845278677" expanded="true" signature="2657:2696" ph="SELECT * FRO... users" />
+            <marker date="1506845278677" expanded="true" signature="4830:4889" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="5513:5557" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="5513:5559" ph="SELECT title... articles" />
+            <marker date="1506845278677" expanded="true" signature="6141:6177" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6179" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6194" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6196" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6141:6214" ph="UPDATE artic... " />
+            <marker date="1506845278677" expanded="true" signature="6147:6177" ph="INSERT INTO articles... " />
+            <marker date="1506845278677" expanded="true" signature="6752:6786" ph="DELETE FROM " />
+            <marker date="1506845278677" expanded="true" signature="6758:6786" ph="SELECT title... articles" />
           </folding>
         </state>
       </provider>

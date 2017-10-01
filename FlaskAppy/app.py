@@ -202,6 +202,7 @@ def add_article():
 
 
 # Edit Article
+#TODO make the body field scalable
 @app.route('/edit_article/<string:id>/', methods=['GET','POST'])
 @is_logged_in
 def edit_article(id):
@@ -245,6 +246,26 @@ def edit_article(id):
 
     else:
         flash('Something went wrong!', 'danger')
+    return redirect(url_for('dashboard'))
+
+
+# Delete Article
+#TODO make the success message simillar to all pages
+@app.route('/del_article/<string:id>/')
+@is_logged_in
+def del_article(id):
+
+    #Create cursor
+    cur = mysql.connection.cursor()
+    #Execute
+    cur.execute("DELETE FROM articles WHERE id = %s",[id])
+    # Commit
+    mysql.connection.commit()
+
+    # Close connection
+    cur.close()
+
+    flash('Article deleted', 'successful')
     return redirect(url_for('dashboard'))
 
 
