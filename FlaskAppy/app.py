@@ -241,18 +241,12 @@ def edit_article(id):
         # Close connenction
         cur.close()
 
-        flash('Article Updated', 'success')
+        flash('Article changed successfully', 'success')
         return redirect(url_for('dashboard'))
+
     else:
         flash('Something went wrong!', 'danger')
     return redirect(url_for('dashboard'))
-
-
-
-
-
-    flash('Article changed successfuly', 'success')
-    return render_template('/edit_article.html', form=form)
 
 
 
