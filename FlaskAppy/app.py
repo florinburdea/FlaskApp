@@ -159,7 +159,7 @@ def dashboard():
     cur = mysql.connection.cursor()
 
     #Get articles
-    result = cur.execute("SELECT*FROM articles")
+    result = cur.execute("SELECT*FROM articles WHERE author = %s", [session['username']])
 
     articles = cur.fetchall()
 
@@ -203,6 +203,8 @@ def add_article():
 
 # Edit Article
 #TODO make the body field scalable
+#TODO add the edit bar to the edit_article.htlm page as on add_article.html
+#TODO analyse we every time you edit an Article a additional space prefixex the title info
 @app.route('/edit_article/<string:id>/', methods=['GET','POST'])
 @is_logged_in
 def edit_article(id):
@@ -226,7 +228,7 @@ def edit_article(id):
         # Close connection
         cur.close()
 
-        return render_template('edit_article.html', title=title, body=body)
+        return render_template('edit_article.html', title=title, body=body, form=form)
 
     elif request.method == 'POST' and form.validate():
         title = form.title.data
@@ -250,7 +252,6 @@ def edit_article(id):
 
 
 # Delete Article
-#TODO make the success message simillar to all pages
 @app.route('/del_article/<string:id>/')
 @is_logged_in
 def del_article(id):
@@ -265,7 +266,7 @@ def del_article(id):
     # Close connection
     cur.close()
 
-    flash('Article deleted', 'successful')
+    flash('Article deleted', 'success')
     return redirect(url_for('dashboard'))
 
 
