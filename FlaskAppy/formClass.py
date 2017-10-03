@@ -1,12 +1,6 @@
-# --------------------------------------------------------------------------
 # Imports
 from wtforms import Form, StringField, PasswordField, TextAreaField, validators
 
-
-#--------------------------------------------------------------------------
-
-
-#--------------------------------------------------------------------------
 
 # Article form class
 class ArticleForm(Form):

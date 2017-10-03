@@ -4,13 +4,13 @@ from flask import Flask, render_template, flash, url_for, redirect, session, req
 from flask_mysqldb import MySQL
 from passlib.hash import sha256_crypt
 
-from FlaskAppy.formClass import ArticleForm
-from FlaskAppy.formClass import EditForm
-from FlaskAppy.formClass import RegisterForm
+from formClass import ArticleForm
+from formClass import EditForm
+from formClass import RegisterForm
 
 app = Flask(__name__)
 
-#Confi MySql
+#Config MySql
 app.config['MYSQL_HOST']='localhost'
 app.config['MYSQL_USER']='root'
 app.config['MYSQL_PASSWORD']='n33pvLkes!'
@@ -48,7 +48,7 @@ def articles():
         msg = 'No Articles Foound'
         return render_template('articles.html', msg=msg)
 
-    # Close connenction
+    # Close connection
     cur.close()
 
 
@@ -204,7 +204,7 @@ def add_article():
 # Edit Article
 #TODO make the body field scalable
 #TODO add the edit bar to the edit_article.htlm page as on add_article.html
-#TODO analyse we every time you edit an Article a additional space prefixex the title info
+#TODO analyse we every time you edit an Article a additional space prefix the title info
 @app.route('/edit_article/<string:id>/', methods=['GET','POST'])
 @is_logged_in
 def edit_article(id):
