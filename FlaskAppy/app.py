@@ -1,5 +1,4 @@
 from functools import wraps
-
 from flask import Flask, render_template, flash, url_for, redirect, session, request
 from flask_mysqldb import MySQL
 from passlib.hash import sha256_crypt
@@ -13,7 +12,7 @@ app = Flask(__name__)
 #Config MySql
 app.config['MYSQL_HOST']='localhost'
 app.config['MYSQL_USER']='root'
-app.config['MYSQL_PASSWORD']='n33pvLkes!'
+app.config['MYSQL_PASSWORD']='dt2017'
 app.config['MYSQL_DB']='myflaskapp'
 app.config['MYSQL_CURSORCLASS']='DictCursor'
 

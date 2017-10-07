@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FlaskApp.iml" filepath="$PROJECT_DIR$/.idea/FlaskApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TeamAdmin/.idea/TeamAdmin.iml" filepath="$PROJECT_DIR$/../TeamAdmin/.idea/TeamAdmin.iml" />
     </modules>
   </component>
 </project>
