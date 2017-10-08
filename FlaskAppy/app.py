@@ -44,7 +44,7 @@ def articles():
     if result >0:
         return render_template('articles.html', articles=articles)
     else:
-        msg = 'No Articles Foound'
+        msg = 'No Articles Found'
         return render_template('articles.html', msg=msg)
 
     # Close connection
@@ -180,14 +180,16 @@ def dashboard():
 def add_article():
     form = ArticleForm(request.form)
     if request.method =='POST' and form.validate():
-        title = form.title.data
-        body = form.body.data
+        session['title'] = form.title.data
+        session['body'] = form.body.data
 
         #Create cursor
         cur = mysql.connection.cursor()
 
         #Execute
-        cur.execute("INSERT INTO articles(title, body, author) VALUES (%s,%s,%s)", (title, body, session['username']))
+        cur.execute("INSERT INTO articles(title, body, author) VALUES (%s,%s,%s)", (session['title'], 
+                                                                                    session['body'], 
+                                                                                    session['username']))
 
         #Commit
         mysql.connection.commit()
