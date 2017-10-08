@@ -232,13 +232,13 @@ def edit_article(id):
         return render_template('edit_article.html', title=title, body=body, form=form)
 
     elif request.method == 'POST' and form.validate():
-        title = form.title.data
-        body = form.body.data
+        session['title'] = form.title.data
+        session['body'] = form.body.data
 
         # Create cursor
         cur = mysql.connection.cursor()
         # Execute
-        cur.execute("UPDATE articles SET title = %s, body = %s WHERE id = %s",[title,body,id])
+        cur.execute("UPDATE articles SET title = %s, body = %s WHERE id = %s",[session['title'],session['body'],id])
         # Commit
         mysql.connection.commit()
         # Close connection
