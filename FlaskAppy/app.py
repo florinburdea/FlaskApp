@@ -2,6 +2,8 @@ from functools import wraps
 from flask import Flask, render_template, flash, url_for, redirect, session, request
 from flask_mysqldb import MySQL
 from passlib.hash import sha256_crypt
+from flask.ext.mail import Mail, Message
+import os
 
 from formClass import ArticleForm
 from formClass import EditForm
@@ -9,16 +11,30 @@ from formClass import RegisterForm
 
 app = Flask(__name__)
 
-#Config MySql
+# Config MySql
 app.config['MYSQL_HOST']='localhost'
 app.config['MYSQL_USER']='root'
 app.config['MYSQL_PASSWORD']='dt2017'
 app.config['MYSQL_DB']='myflaskapp'
 app.config['MYSQL_CURSORCLASS']='DictCursor'
 
-#Initialize MySql
+# Config Email
+app.config['MAIL_SERVER']='smtp.googlemail.com'
+app.config['MAIL_PORT'] = 587
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USERNAME'] = os.environ.get('MAIL_USERNAME')
+app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD')
+
+# Config Email Message
+app.config['FLASKY_MAIL_SUBJECT_PREFIX'] = '[MyFlaskApp]'
+app.config['FLASKY_MAIL_SENDER'] = 'MyFlaskApp Admin <florinburdea@gmail.com>'
+
+
+# Initialize MySql
 mysql = MySQL(app)
 
+# Initialize Mail
+mail = Mail(app)
 
 # Home page
 @app.route('/')
@@ -168,7 +184,7 @@ def dashboard():
     if result >0:
         return render_template('dashboard.html', articles=articles)
     else:
-        msg = 'No Articles Foound'
+        msg = 'No Articles Found'
         return render_template('dashboard.html', msg=msg)
 
     # Close connection
@@ -206,9 +222,7 @@ def add_article():
 
 
 # Edit Article
-#TODO make the body field scalable
 #TODO add the edit bar to the edit_article.htlm page as on add_article.html
-#TODO analyse we every time you edit an Article a additional space prefix the title info
 @app.route('/edit_article/<string:id>/', methods=['GET','POST'])
 @is_logged_in
 def edit_article(id):
